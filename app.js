@@ -14,7 +14,7 @@ window.addEventListener('load', () => {
           ficheDiv.innerHTML = `
             <img class="photo" src="${picture.large}">
             <p class="nom">Nom: ${name.first} ${name.last}</p>
-            <p class="courriel">Courriel: ${email}</p>
+            <p class="courriel">E-mail: ${email}</p>
           `;
 
           container.appendChild(ficheDiv);
@@ -26,4 +26,5 @@ window.addEventListener('load', () => {
     .catch(error => {
         console.log('Une erreur sest produite:', error);
       });
+
 });

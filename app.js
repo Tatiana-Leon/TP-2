@@ -24,7 +24,7 @@ window.addEventListener('load', () => {
       }
     })
     .catch(error => {
-        console.log('Une erreur sest produite:', error);
+        console.log('Une erreur s/est produite:', error);
       });
 
 });

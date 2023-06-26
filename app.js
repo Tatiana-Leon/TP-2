@@ -23,5 +23,7 @@ window.addEventListener('load', () => {
         console.log('Aucune donnée de fiche disponible.');
       }
     })
-    
+    .catch(error => {
+        console.log('Une erreur sest produite:', error);
+      });
 });
